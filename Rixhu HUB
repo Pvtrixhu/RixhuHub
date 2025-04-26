@@ -132,6 +132,7 @@ local function processText()
     if not isAutoClearEnabled then
         G2L["7"].Text = ""  -- Auto clear text when the checkbox is OFF
     end
+
 local function C_3()
     local script = G2L["3"]
     local UserInputService = game:GetService("UserInputService")
