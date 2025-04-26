@@ -1,4 +1,4 @@
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+   local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
     Notification:Notify(
        {Title = "By Father Rixhu, Insta ID ~ Pvtrixhu", Description = "Font Provided By Limo, youtube~ LuvLimo2"},
@@ -91,7 +91,7 @@ G2L["10"] = Instance.new("UICorner", G2L["f"])
 G2L["10"]["CornerRadius"] = UDim.new(0, 2)
 G2L["11"] = Instance.new("LocalScript", G2L["f"])
 
-
+kjsdbufsdbvsd
 
 local function C_3()
     local script = G2L["3"]
@@ -106,8 +106,6 @@ local function C_3()
         gui.Position =
             UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
     end
-
-
     gui.InputBegan:Connect(
         function(input)
             if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
@@ -157,8 +155,6 @@ local function C_a()
         local escaped_find_str = find_str:gsub("[%-%^%$%(%)%%%.%[%]%*%+%-%?]", "%%%0")
         return str:gsub(escaped_find_str, replace_str)
     end
-
-
 local letters = {
     ["A"] = "🅰",
     ["a"] = "🅰",
